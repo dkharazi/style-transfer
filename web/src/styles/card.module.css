@@ -19,3 +19,15 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 45.625em) {
+    .infoText {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 38.8125em) {
+    .infoText {
+        font-size: 0.8125rem !important;
+    }
+}

@@ -5,6 +5,7 @@ import InputCard from './components/InputCard';
 import OutputCard from './components/OutputCard';
 import images from './data/images';
 import './styles/index.css';
+import layoutStyles from './styles/layout.module.css';
 
 
 const Index = () => {
@@ -28,7 +29,7 @@ const Index = () => {
       </Grid>
       <Grid item xs={12}>
         <Grid container justify="center" spacing={2}>
-          <Grid item container xs={4} direction="column">
+          <Grid item container xs={4} direction="column" className={layoutStyles.gridItem}>
             <InputCard
               card={contentImg}
               title="Content Image"
@@ -38,7 +39,7 @@ const Index = () => {
               setOpenModal={setOpenContentModal}
             />
           </Grid>
-          <Grid item container xs={4} direction="column">
+          <Grid item container xs={4} direction="column" className={layoutStyles.gridItem}>
             <InputCard
               card={styleImg}
               title="Style Image"
@@ -48,7 +49,7 @@ const Index = () => {
               setOpenModal={setOpenStyleModal}
             />
           </Grid>
-          <Grid item container xs={4} direction="column">
+          <Grid item container xs={4} direction="column" className={layoutStyles.gridItem}>
             <OutputCard
               title="New Image"
               card={newImg}

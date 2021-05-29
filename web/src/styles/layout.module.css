@@ -1,0 +1,12 @@
+@media (max-width: 38.8125em) {
+    .gridItem {
+        max-width: none !important;
+        flex-basis: 100% !important;
+    }
+}
+
+@media (min-width: 76.25em) {
+    .gridItem {
+        max-width: 400px !important;
+    }
+}

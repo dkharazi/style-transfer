@@ -54,7 +54,7 @@ const InputCard = ({ card, title, type, setCard, openModal, setOpenModal }) => {
                     color="primary"
                     onClick={handleOpenModal}
                 >
-                    Description
+                    <p className={cardStyles.infoText}>Description</p>
                 </Button>
                 <Modal
                     card={card}
@@ -62,7 +62,7 @@ const InputCard = ({ card, title, type, setCard, openModal, setOpenModal }) => {
                     setOpenModal={setOpenModal}
                 />
                 <Button size="small" color="primary" href={card.link}>
-                    Learn More
+                    <p className={cardStyles.infoText}>Learn More</p>
                 </Button>
             </CardActions>
         </Card>
