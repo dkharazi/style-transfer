@@ -5,9 +5,7 @@ Currently, the neural style transfer model built for combining styles with conte
 
 # What is Neural Style Transfer?
 Before diving into any descriptions of neural style transfer, let's first define style transfer. The original style transfer approach generates a new, stylized content image <a href="https://www.codecogs.com/eqnedit.php?latex=x^{*}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{*}" title="x^{*}" /></a> given a content image <a href="https://www.codecogs.com/eqnedit.php?latex=x^{c}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{c}" title="x^{c}" /></a> and a style image <a href="https://www.codecogs.com/eqnedit.php?latex=x^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{s}" title="x^{s}" /></a>. The feature maps of <a href="https://www.codecogs.com/eqnedit.php?latex=x^{*}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{*}" title="x^{*}" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=x^{c}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{c}" title="x^{c}" /></a>, and <a href="https://www.codecogs.com/eqnedit.php?latex=x^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{s}" title="x^{s}" /></a> in the layer *l* of
-a CNN are denoted by **F**, **P**, and **S**, respectively. To help illustrate these variable, **N** is the number of the feature maps in the layer l.
-
-Neural style transfer iteratively generates <a href="https://www.codecogs.com/eqnedit.php?latex=x^{*}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{*}" title="x^{*}" /></a> by optimizing a content loss and a style loss.
+a CNN are denoted by **F**, **P**, and **S**, respectively. To help illustrate these variable, **N** is the number of the feature maps in the layer l. Neural style transfer iteratively generates <a href="https://www.codecogs.com/eqnedit.php?latex=x^{*}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{*}" title="x^{*}" /></a> by optimizing a content loss and a style loss.
 
 
 # Why Style Transfer uses Gram Matrices?
