@@ -4,6 +4,7 @@ The purpose of this project is to combine a content image with a style image. Th
 Currently, the neural style transfer model built for combining styles with content images isn't run in real-time. The model already has been run on these combination of images to avoid wait times for the user. However, the time it takes for the model to run is on average about 20 seconds. Thus, I plan on building a feature for allowing the user to provide and model his or her own content image (or style image possibly) in the future.
 
 # What is Neural Style Transfer?
+Before diving into any descriptions of neural style transfer, let's first define style transfer. The original style transfer approach generates a stylized content image $x^{*}$
 
 
 # Why Style Transfer uses Gram Matrices?
